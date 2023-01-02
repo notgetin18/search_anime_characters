@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url(https://picsum.photos/seed/picsum/200/300);
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.pagination {
+  padding: 10px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination > button {
+  padding: 15px 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.pagination_disable {
+  opacity: 0;
+}
+.character-box {
+  /* display: flex; */
+  justify-content: space-between;
+  border: 2px solid #000;
+  margin-bottom: 20px;
+}
+.inner-box3 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.inner-box1 {
+  align-items: center;
+  grid-column: span 10 / span 10;
+  padding: 15px;
+}
+.img-001 {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  vertical-align: top;
+}
+
+.inner-box2 {
+  margin-left: 15px;
+  display: inline-block;
+  width: 90%;
+}
+.p1 {
+  margin: 0;
+  font-size: 22px;
+  font-family: cursive;
+}
+.h1-01 {
+  text-align: center;
+  margin:80px;
+}
+
+.input-001 {
+  height: 40px;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 40%;
+  display: block;
+  padding: 10px;
+  font-size: 22px;
+}
+.box-002 {
+  margin-top: 50px;
+  border-top: 2px solid;
+  padding-top: 50px;
+  background: #fff;
+}
+.box-001 {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+.p2 {
+  font-weight: 800;
+  margin: 8px 0 0 0;
+}
+
+.dd {
+  display: inline-block;
+  width: 10% !important;
+  margin-right: 10px;
+  position: initial !important;
+}
+
+.p4 {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+.inner-box4 {
+  display: flex;
+  grid-column: span 2 / span 2;
+  justify-content: end;
+}
+
+.span-001 {
+  border-left: 2px solid;
+  padding: 10px;
+}
+.span-001 svg {
+  font-size: 50px;
+  min-height: 25vh;
+  color: blue;
+}
+.p5 {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.span-002 {
+  color: red;
+}
